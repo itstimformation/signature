@@ -1,0 +1,141 @@
+/*------------- CSS RESET -----------------------*/
+
+*{
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  line-height: 1em;
+  overflow-x: hidden;
+  overflow-y: ;
+}
+
+body{
+  /*width: 75%;
+  max-width: 700px;*/
+  font-family: 'Helvetica Light','Open Sans','Arial', sans-serif;
+  /*font-family: 'Libre Baskerville', Georgia, Times, 'Times New Roman',serif;*/
+  margin: auto;
+  background-color: #ffffff;*/
+  /*background-color: #fafafa;*/
+  color: #333;
+  line-height: 1.8;
+  overflow-x: hidden;
+  overflow-y: ;
+}
+
+::-webkit-scrollbar {
+    display: none;
+    -webkit-overflow-scrolling: touch;
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src:url('../fonts/HelveticaNeueLTStd-Bd.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Open Regular';
+  src:url('../fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Light';
+  src:url('../fonts/OpenSans-Light.ttf') format('truetype');
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 10vw 15vw 15vw;
+  grid-template-rows: auto auto auto 3vh 7vh;
+  background-color: #fff;
+  color: #444;
+  overflow-x: hidden;
+
+}
+
+.box {
+  background-color: #;
+  color: #fff;
+  overflow: hidden;
+}
+
+.a {
+  background-color: ;
+  grid-row-start: 1;
+  grid-row-end: -2;
+  grid-column-start: 1;
+  overflow: hidden;
+}
+
+.monogram {
+  width: 7vw;
+  padding-left: ;
+  padding-top: 20px;
+}
+
+.b {
+  background-color: ;
+  overflow: hidden;
+}
+
+.name {
+  font-family: 'Helvetica';
+  font-size: 2em;
+  padding-top: 15px;
+  color: #444;
+}
+
+.c {
+  background-color: ;
+}
+
+.d {
+  background-color: ;
+
+}
+
+.job {
+  font-family: 'Open Light';
+  font-weight: ;
+  font-size: 1.3em;
+  padding-bottom: 10px;
+  color: #747474;
+}
+
+.e {
+  background-color: ;
+  grid-row-start: -4;
+}
+
+p {
+  font-family: 'Open Light';
+  font-weight: lighter;
+  padding-bottom: 2px;
+  color: #8b8b8b;
+  padding-bottom: 2px;
+}
+
+.f {
+  background-color: ;
+  grid-row-start: -3;
+}
+
+.social {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: px;
+  width: 2em;
+  opacity: .8;
+}
+
+.first {
+  padding-left: 22.5em;
+}
+
+.g {
+  background-color: ;
+  grid-column-start: 1;
+  grid-column-end: -2;
+  background-image: url(../images/Visual-Marque-Cover-Grey.png);
+  background-size: 30em;
+}
