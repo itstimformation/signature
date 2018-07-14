@@ -6,7 +6,7 @@
   font-size: 100%;
   line-height: 1em;
   overflow-x: hidden;
-  overflow-y: ;
+  overflow-y: hidden;
 }
 
 body{
@@ -23,10 +23,6 @@ body{
   overflow-y: ;
 }
 
-::-webkit-scrollbar {
-    display: none;
-    -webkit-overflow-scrolling: touch;
-}
 
 @font-face {
   font-family: 'Helvetica';
@@ -129,13 +125,13 @@ p {
 }
 
 .first {
-  padding-left: 22.5em;
+  margin-left: 22.5em;
 }
 
 .g {
   background-color: ;
   grid-column-start: 1;
   grid-column-end: -2;
-  background-image: url(../images/Visual-Marque-Cover-Grey.png);
+  background-image: url(http://tim-davidson.com/signature/signature/images/Visual-Marque-Cover-Grey.png);
   background-size: 30em;
 }
